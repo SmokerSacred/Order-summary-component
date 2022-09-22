@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-size: 500%;  
+}
+
+.img>img{
+    width:70%;
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
+}
+
+.container{
+margin: 1.5rem;
+width: 70%;
+height: 22rem;
+background-color: white;
+margin-left: 4.5rem;
+position: relative;
+top: -1.79rem;
+border-radius: 0rem  0rem 0.625rem 0.625rem ;
+text-align: center;
+}
+
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 2rem;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    margin-left: rem;
+    margin-right: 2.5rem;
+    margin-top: 1rem;
+    padding-left: 3rem;
+}
+
+.plan{
+    margin: 1rem 2rem 2rem 2rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    padding-top: 15px;
+}
+
+.plan-left{
+    display: flex;
+}
+
+.plan-left img{
+  width: 30%;  
+  height: 80%;
+}
+
+.plan-left .price{
+    margin-top: 1px;
+}
+
+.change{
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 13px;
+}
+
+.change:hover{
+    color: hsl(224, 23%, 55%);
+}
+
+h5{
+    font-size: 15px ;
+    color: hsl(223, 47%, 23%);
+}
+
+.pay{
+    margin: -1rem 2rem 1rem;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 0.625rem;
+    padding: 10px;
+    box-shadow: 1px 15px 5px hsl(227, 27%, 90%);
+}
+
+.pay:hover{
+    opacity: 70%;
+}
+
+.cancel{
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media(min-width:640px){
+    .img>img{
+        width:30%;
+        position: relative;
+        left: 25rem;
+    }
+    
+    .container{
+        width: 30%; 
+        left: 25rem;
+        
+    }
+
+    body{
+        background-image: url(/images/pattern-background-desktop.svg);
+        background-size: cover;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    margin-top: -3rem;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
