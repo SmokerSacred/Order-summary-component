@@ -119,8 +119,10 @@ h5{
     }
 
     body{
+        background-color: #E1E9FF;
         background-image: url(/images/pattern-background-desktop.svg);
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 
